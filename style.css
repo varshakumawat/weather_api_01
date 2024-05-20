@@ -1,0 +1,45 @@
+body{
+    background-image: url(Add\ a\ subheading.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: bottom;
+   height: 100vh;
+}
+.mb-3{
+    color:navy;
+    font-size: 35px;
+    font-weight: bold;
+}
+.weather-container {
+   background-color: rgba(255, 255, 255, 0.6) !important;
+    /* White container background color */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for container */
+    width: 500px;
+    
+}
+.form-control{
+    height: 50px;
+}
+
+.weather-icon {
+    font-size: 50px;
+    color: #f39c12;
+   
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+/* Centering container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    color: #007bff;
+    /* Bootstrap primary color */
+}
